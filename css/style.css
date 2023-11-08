@@ -17,7 +17,18 @@ body{
  font-weight: 400;
  line-height: 150%;
 }
+.container{
+  width: 100%;
+  max-width: 1140px;
+  margin: auto;
 
+}
+
+.header__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .smaller__heading{
   margin: 0;
   margin-bottom: 24px;
@@ -35,9 +46,6 @@ body{
   padding-top: 24px;
   padding-bottom: 24px;
   margin: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .logo{
@@ -88,10 +96,12 @@ body{
 
 .hero{
   background: #0EB4C1;
+  margin: 0;
+}
+.hero__container{
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 0;
 }
 
 .hero__info h2{
@@ -114,14 +124,14 @@ body{
 
 /* feature */
 .feature{
-  padding-top: 120px;
-  padding-bottom: 120px;
+ padding: 120px 0px;
 }
 
 .feature h2{
   color: #222;
   margin: 0;
   margin-bottom: 56px;
+  text-align: center;
 }
 
 .feature__item{
@@ -148,13 +158,14 @@ body{
 
 
 /* footer */
-.social{
+.social__container{
+  text-align: center;
   background: #0EB4C1;
   padding-top: 64px;
   padding-bottom: 64px;
 }
 
-.social h2{
+.social__container h2{
   color: #fff;
   margin: 0;
   margin-bottom: 40px;
